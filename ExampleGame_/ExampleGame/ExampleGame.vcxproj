@@ -43,6 +43,9 @@
     <ProjectReference Include="..\..\Engine\Asserts\Asserts.vcxproj">
       <Project>{464a6551-fca9-4027-bd9e-2b26914782ab}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\..\Engine\Graphics\Graphics.vcxproj">
+      <Project>{a1515176-5972-48bb-9049-2b46963d5d67}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\Engine\Math\Math.vcxproj">
       <Project>{999c3d5f-7f79-4bd7-ae21-92eeed0c5962}</Project>
     </ProjectReference>
@@ -134,7 +137,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ForcedIncludeFiles>$(ProjectDir)Windows/ExternalLibraries.win.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -157,6 +161,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -181,6 +187,8 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -207,7 +215,8 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ForcedIncludeFiles>$(ProjectDir)Windows/ExternalLibraries.win.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
