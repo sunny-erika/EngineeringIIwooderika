@@ -1,79 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Windows">
-      <UniqueIdentifier>{23f5f7b4-261f-4b69-a9dc-ccbad54d38c2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="OpenGL">
-      <UniqueIdentifier>{bdb5adcf-e012-41c6-8a94-77f6fb69f07b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Direct3D">
-      <UniqueIdentifier>{e2d22876-be1f-4e03-850e-57f908c9d6bd}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="cRenderState.cpp" />
-    <ClCompile Include="cShader.cpp" />
-    <ClCompile Include="cVertexFormat.cpp" />
-    <ClCompile Include="sContext.cpp" />
-    <ClCompile Include="Direct3D\cConstantBuffer.d3d.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cConstantBuffer.cpp" />
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cRenderState.cpp" />
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cShader.cpp" />
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cVertexFormat.cpp" />
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\sContext.cpp" />
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\cConstantBuffer.d3d.cpp">
       <Filter>Direct3D</Filter>
     </ClCompile>
-    <ClCompile Include="Direct3D\cRenderState.d3d.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\cRenderState.d3d.cpp">
       <Filter>Direct3D</Filter>
     </ClCompile>
-    <ClCompile Include="Direct3D\cShader.d3d.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\cShader.d3d.cpp">
       <Filter>Direct3D</Filter>
     </ClCompile>
-    <ClCompile Include="Direct3D\cVertexFormat.d3d.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\cVertexFormat.d3d.cpp">
       <Filter>Direct3D</Filter>
     </ClCompile>
-    <ClCompile Include="Direct3D\Graphics.d3d.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\Graphics.d3d.cpp">
       <Filter>Direct3D</Filter>
     </ClCompile>
-    <ClCompile Include="Direct3D\sContext.d3d.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\sContext.d3d.cpp">
       <Filter>Direct3D</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGL\cConstantBuffer.gl.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\cConstantBuffer.gl.cpp">
       <Filter>OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGL\cRenderState.gl.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\cRenderState.gl.cpp">
       <Filter>OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGL\cShader.gl.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\cShader.gl.cpp">
       <Filter>OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGL\cVertexFormat.gl.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\cVertexFormat.gl.cpp">
       <Filter>OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGL\Graphics.gl.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\Graphics.gl.cpp">
       <Filter>OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGL\sContext.gl.cpp">
+    <ClCompile Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\sContext.gl.cpp">
       <Filter>OpenGL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Configuration.h" />
-    <ClInclude Include="ConstantBufferFormats.h" />
-    <ClInclude Include="cRenderState.h" />
-    <ClInclude Include="cShader.h" />
-    <ClInclude Include="cVertexFormat.h" />
-    <ClInclude Include="Graphics.h" />
-    <ClInclude Include="sContext.h" />
-    <ClInclude Include="VertexFormats.h" />
-    <ClInclude Include="Windows\ExternalLibraries.win.h">
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cConstantBuffer.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Configuration.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\ConstantBufferFormats.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cRenderState.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cShader.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cVertexFormat.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Graphics.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\sContext.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\VertexFormats.h" />
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Direct3D\Includes.h">
+      <Filter>Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\OpenGL\Includes.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\Windows\ExternalLibraries.win.h">
       <Filter>Windows</Filter>
     </ClInclude>
-    <ClInclude Include="cConstantBuffer.h" />
-    <ClInclude Include="Direct3D\Includes.h">
-      <Filter>Direct3D</Filter>
-    </ClInclude>
-    <ClInclude Include="OpenGL\Includes.h">
-      <Filter>OpenGL</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="cRenderState.inl" />
+    <None Include="F:\Utah2021_22inclC++Collection\Semester3\2021Engineering2\assignment01_Graphics\cRenderState.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{1113a88f-73ec-41f4-9404-fd1bd6d5f0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D">
+      <UniqueIdentifier>{111820de-a4ea-40e8-93ea-665eb63ba981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{cee8d863-488c-44f8-a5eb-a1ca17fe2605}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

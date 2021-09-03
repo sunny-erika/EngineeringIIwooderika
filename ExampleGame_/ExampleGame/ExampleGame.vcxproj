@@ -43,9 +43,6 @@
     <ProjectReference Include="..\..\Engine\Asserts\Asserts.vcxproj">
       <Project>{464a6551-fca9-4027-bd9e-2b26914782ab}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\Engine\Graphics\Graphics.vcxproj">
-      <Project>{a1515176-5972-48bb-9049-2b46963d5d67}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\Engine\Math\Math.vcxproj">
       <Project>{999c3d5f-7f79-4bd7-ae21-92eeed0c5962}</Project>
     </ProjectReference>
