@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyGame", "MyGame", "{4318AFFA-4D6D-4DC7-973A-09DCC0163761}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGame", "MyGame_\MyGame\MyGame.vcxproj", "{28A0E044-4A6A-435A-9119-1F46CC1D66A5}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleGame", "ExampleGame", "{AC0EBDC3-8723-4A43-9112-DB863C2C3694}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExampleGame", "ExampleGame_\ExampleGame\ExampleGame.vcxproj", "{C4A8A8ED-1817-46FC-97E1-E77CA8057D9E}"
@@ -72,10 +76,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScopeGuard", "Engine\ScopeGuard\ScopeGuard.vcxproj", "{B7ED3F7D-BFA1-42C9-9089-C6401FFDE3D4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Engine\Graphics\Graphics.vcxproj", "{DB3ABB3F-C6F8-4877-AA12-DEC42A1943E6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyGame", "MyGame", "{4318AFFA-4D6D-4DC7-973A-09DCC0163761}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGame", "MyGame_\MyGame\MyGame.vcxproj", "{28A0E044-4A6A-435A-9119-1F46CC1D66A5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuildMyGameAssets", "MyGame_\BuildMyGameAssets\BuildMyGameAssets.vcxproj", "{9CB26815-6B56-45EF-9AD3-176BF5C5EC78}"
 	ProjectSection(ProjectDependencies) = postProject
