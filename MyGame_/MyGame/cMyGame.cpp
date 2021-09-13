@@ -31,6 +31,7 @@ void eae6320::cMyGame::UpdateBasedOnInput()
 
 eae6320::cResult eae6320::cMyGame::Initialize()
 {
+	Logging::OutputMessage("MyGame: starting application initialization");
 	auto result = Results::Success;
 
 	if (result)
